@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jassie</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./autoprefixer.css">
+  <link rel="stylesheet" href="./media.css">
+  <link rel="stylesheet" href="./autoprefoxer-media.css">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <a href="" class="logo">
+        <img src="./img/Jessie..svg" alt="logo" width="69" height="24">
+      </a>
+      <nav class="nav" id="nav">
+        <ul class="nav__list list-reset">
+          <li class="nav__list-item"><a href="#" class="nav__link nav__link--active">Portfolio</a></li>
+          <li class="nav__list-item"><a href="#" class="nav__link">Blog</a></li>
+          <li class="nav__list-item"><a href="#" class="nav__link">Client reviews</a></li>
+          <li class="nav__list-item"><a href="#" class="nav__link">Contact me</a></li>
+        </ul>
+      </nav>
+      <button class="btn btn-reset header__btn" id="call-form">Schedule a call</button>
+      <button class="btn-burger btn-reset" id="burger">
+        <span class="btn-burger__line"></span>
+        <span class="btn-burger__line"></span>
+        <span class="btn-burger__line"></span>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container grid  hero__container">
+        <div class="hero__left">
+          <div class="hero__text">
+            Pro photographer
+          </div>
+          <div class="hero__level">
+            Let&rsquo;s take your photographs to&nbsp;next level
+          </div>
+        </div>
+
+
+        <div class="hero__content">
+          <h1 class="visually-hidden"></h1>
+          <div class="hero__hello">
+            Hello there, Nice to&nbsp;meet you. I&nbsp;am<span>Jessie</span>
+          </div>
+          <p class="hero__descr">Amet minim mollit non deserunt ullamco est sit aliqua dolor do&nbsp;amet sint. Velit
+            officia consequat duis
+            enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco
+            est
+            sit aliqua dolor do&nbsp;amet sint.</p>
+          <div class="latest-shots">
+            <div class="latest-shots__header">
+              <h2 class="latest-shots__title">
+                Latest shots
+              </h2>
+              <a href="#" class="latest-shots__link">
+                View all
+              </a>
+            </div>
+            <div class="latest-shots__content">
+              <div class="swiper" id="gallery">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#" class="latest-shots__link" aria-label="Go to shot">
+                      <img src="./img/slide1.jpg" srcset="./img/slide1-2x.jpg" width="250" height="150"
+                        loading="lazy" alt="mask" class="latest-shots__image">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="latest-shots__link" aria-label="Go to shot">
+                      <img src="./img/slide2.jpg" srcset="./img/skide2-2x.jpg" width="250" height="150"
+                        loading="lazy" alt="girl" class="latest-shots__image">
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#" class="latest-shots__link" aria-label="Go to shot">
+                      <img src="./img/slide3.jpg" srcset="./img/slide3-2x.jpg" width="250" height="150"
+                        loading="lazy" alt="robbit" class="latest-shots__image">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="latest-shots__btn">
+              <button class="latest-shots__all latest-shots__btn--left btn-reset  " aria-label="slide left"
+                id="gallery-prev">
+                <svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M26.25 14C26.25 13.7679 26.1578 13.5454 25.9937 13.3813C25.8296 13.2172 25.6071 13.125 25.375 13.125H4.73725L10.2445 7.61951C10.3259 7.53815 10.3904 7.44157 10.4344 7.33528C10.4784 7.22898 10.5011 7.11506 10.5011 7.00001C10.5011 6.88495 10.4784 6.77103 10.4344 6.66474C10.3904 6.55844 10.3259 6.46186 10.2445 6.38051C10.1631 6.29915 10.0666 6.23462 9.96027 6.19059C9.85398 6.14656 9.74005 6.1239 9.625 6.1239C9.50995 6.1239 9.39602 6.14656 9.28973 6.19059C9.18343 6.23462 9.08685 6.29915 9.0055 6.38051L2.0055 13.3805C1.92401 13.4618 1.85936 13.5583 1.81525 13.6646C1.77114 13.771 1.74844 13.8849 1.74844 14C1.74844 14.1151 1.77114 14.2291 1.81525 14.3354C1.85936 14.4417 1.92401 14.5382 2.0055 14.6195L9.0055 21.6195C9.08685 21.7009 9.18343 21.7654 9.28973 21.8094C9.39602 21.8535 9.50995 21.8761 9.625 21.8761C9.74005 21.8761 9.85398 21.8535 9.96027 21.8094C10.0666 21.7654 10.1631 21.7009 10.2445 21.6195C10.3259 21.5382 10.3904 21.4416 10.4344 21.3353C10.4784 21.229 10.5011 21.1151 10.5011 21C10.5011 20.885 10.4784 20.771 10.4344 20.6647C10.3904 20.5584 10.3259 20.4619 10.2445 20.3805L4.73725 14.875H25.375C25.6071 14.875 25.8296 14.7828 25.9937 14.6187C26.1578 14.4546 26.25 14.2321 26.25 14Z" />
+                </svg>
+              </button>
+              <button class="latest-shots__all  latest-shots__btn--right btn-reset" aria-label="slide right"
+                id="gallery-next">
+                <svg width="26" height="16" viewBox="0 0 26 16" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M0.750008 8.00001C0.750008 7.76794 0.842194 7.54538 1.00629 7.38129C1.17038 7.21719 1.39294 7.12501 1.62501 7.12501H22.2628L16.7555 1.61951C16.6742 1.53815 16.6096 1.44157 16.5656 1.33528C16.5216 1.22898 16.4989 1.11506 16.4989 1.00001C16.4989 0.884955 16.5216 0.77103 16.5656 0.664736C16.6096 0.558442 16.6742 0.46186 16.7555 0.380506C16.8369 0.299153 16.9334 0.234619 17.0397 0.190591C17.146 0.146563 17.26 0.123901 17.375 0.123901C17.4901 0.123901 17.604 0.146563 17.7103 0.190591C17.8166 0.234619 17.9132 0.299153 17.9945 0.380506L24.9945 7.38051C25.076 7.46179 25.1406 7.55834 25.1848 7.66465C25.2289 7.77095 25.2516 7.88491 25.2516 8.00001C25.2516 8.1151 25.2289 8.22906 25.1848 8.33536C25.1406 8.44167 25.076 8.53823 24.9945 8.61951L17.9945 15.6195C17.9132 15.7009 17.8166 15.7654 17.7103 15.8094C17.604 15.8535 17.4901 15.8761 17.375 15.8761C17.26 15.8761 17.146 15.8535 17.0397 15.8094C16.9334 15.7654 16.8369 15.7009 16.7555 15.6195C16.6742 15.5382 16.6096 15.4416 16.5656 15.3353C16.5216 15.229 16.4989 15.1151 16.4989 15C16.4989 14.885 16.5216 14.771 16.5656 14.6647C16.6096 14.5584 16.6742 14.4619 16.7555 14.3805L22.2628 8.87501H1.62501C1.39294 8.87501 1.17038 8.78282 1.00629 8.61872C0.842194 8.45463 0.750008 8.23207 0.750008 8.00001Z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="modal-parent" id="modal">
+    <div class="modal-parent__wrapper">
+      <div class="modal">
+        <div class="modal__header">
+          <h2 class="modal__title">Schedule a call</h2>
+          <button class="btn-reset modal__btn" id="modal-closed">
+            <span class="modal__btn-line"></span>
+            <span class="modal__btn-line"></span>
+          </button>
+        </div>
+        <form action="#" class="form">
+          <label class="form__field">
+            <span class="form__text">name</span>
+            <input type="text" name="name" class="form__input">
+          </label>
+          <label class="form__field">
+            <span class="form__text">tel</span>
+            <input type="text" name="tel" class="form__input">
+          </label>
+          <button class="btn form__btn btn-reset">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
